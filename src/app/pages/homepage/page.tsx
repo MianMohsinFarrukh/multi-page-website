@@ -44,7 +44,7 @@ const HomePage = () => {
                             <div className="flex items-center justify-center md:p-2">
                                 <Image className="pb-8" src="/images/m4.png" alt="Streak Count" width={60} height={60} />
                                 <div className="">
-                                    <p className="text-gray-600">Streak count <span className="text-gray-500">ℹ</span></p>
+                                    <p className="text-gray-600">Streak counts <span className="text-gray-500">ℹ</span></p>
                                     <div className="text-4xl font-bold text-gray-800">0</div>
                                     <div className="flex items-center justify-center mt-2">
                                         <span className="text-gray-600 bg-gray-300 rounded-full px-2">OFF</span>
