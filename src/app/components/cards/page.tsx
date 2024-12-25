@@ -2,7 +2,9 @@ import React from 'react'
 
 export default function Cards() {
     return (
-        <div></div>
+        <div>
+            <div className=''></div>
+        </div>
     );
 };
 
