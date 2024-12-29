@@ -1,11 +1,13 @@
 // pages/index.tsx
 import React from "react";
 import Image from "next/image";
+import ResponsiveCards from "@/app/components/cards/page";
 
 const HomePage = () => {
+
     return (
         <div className="min-h-screen ">
-            <main className="  py-4 bg-gradient-to-r from-blue-300 to-cyan-100">
+            <div className="  py-4 bg-gradient-to-r from-blue-300 to-cyan-100">
                 <div className=" p-6  ">
                     <h1 className="text-3xl mb-4 md:ml-16 font-bold text-gray-800">Welcome</h1>
                     <p className="text-gray-600 md:ml-16 ">Level 2 <span className="text-gray-500">ℹ</span></p>
@@ -56,7 +58,39 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-            </main>
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <section>
+                <div className="items-center text-center mt-4">
+                    <button className="p-3 hover:bg-blue-500">Earn</button>
+                    <button className="p-3 hover:bg-blue-500">Redeem</button>
+                    <button className="p-3 hover:bg-blue-500">Status</button>
+
+                </div>
+                <div className="justify-end">
+                    <span>Daily Set</span>
+                    <span className="text-gray-600 bg-gray-300 rounded-full px-2">OFF</span>
+                    <button className="ml-2 hover:bg-gray-100 rounded-full  py-1 text-sm">Streak protection</button>
+                    
+                </div>
+                <ResponsiveCards />
+
+
+
+
+
+
+
+            </section>
         </div>
     );
 };
