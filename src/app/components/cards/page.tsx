@@ -2,7 +2,7 @@ import React from "react";
 
 const ResponsiveCards = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-3">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Large Card */}
         <div className="lg:col-span-2 flex flex-col items-start p-8 border border-gray-300 rounded-lg shadow-lg h-96">
