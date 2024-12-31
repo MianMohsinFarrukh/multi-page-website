@@ -10,7 +10,7 @@ export default function Bottom() {
                     <div className=''>
                         <p className='text-blue-400 pt-4 '>Find how to resolve common issues</p>
                         <p className='text-blue-400 pt-2 '>Provide feedback</p>
-                        <p className='text-blue-400 pt-2 '>Contact Microsoft Rewards support</p>
+                        <p className='text-blue-400 pt-2 '>Contact Microsoft Rewards supports</p>
                     </div>
 
                 </div>
