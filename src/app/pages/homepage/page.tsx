@@ -2,16 +2,18 @@
 import React from "react";
 import Image from "next/image";
 import ResponsiveCards from "@/app/components/cards/page";
+import { FaFutbol, FaGift } from "react-icons/fa";
+import SuggestedRewards from "@/app/components/secondcards/page";
 
 const HomePage = () => {
 
     return (
-        <div className="min-h-screen ">
+        <div className="min-h-screen bg-gray-100 py-10 ">
             <div className="  py-4 bg-gradient-to-r from-blue-300 to-cyan-100">
                 <div className=" p-6  ">
                     <h1 className="text-3xl mb-4 md:ml-16 font-bold text-gray-800">Welcome</h1>
                     <p className="text-gray-600 md:ml-16 ">Level 2 <span className="text-gray-500">
-                    ©</span></p>
+                        ©</span></p>
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mt-10 md:pl-8 pr-6">
                         <div className="text-center">
                             <div className="flex items-center justify-center md:p-2">
@@ -91,7 +93,7 @@ const HomePage = () => {
                 <ResponsiveCards />
 
                 <div className="container mx-auto px-4 py-8">
-                    <div className="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center">
+                    <div className=" p-6  flex flex-col items-center">
                         <div className="flex items-center w-full justify-between">
                             {/* Current Day Streak */}
                             <div className="flex flex-col items-center">
@@ -135,7 +137,7 @@ const HomePage = () => {
 
             </section>
             <section>
-                <div className="container mx-auto px-4 py-3">
+                <div className="container mx-auto px-4 py-3 bg-gray-100  ">
                     <div className="text-2xl font-bold mb-4">More Activities</div>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
 
@@ -166,6 +168,64 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
+
+
+
+            <div className="bg-gray-100 py-10 ">
+                <div className="text-xl font-bold mb-4 mx-20">Your goal</div>
+                <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {/* Your Goal Section */}
+                    <div className="bg-white p-6 shadow-md rounded-lg flex items-center">
+                        <FaFutbol className="text-4xl text-gray-500 mr-4" />
+                        <div>
+                            <h3 className="text-lg font-bold mb-2">You haven't set a goal yet</h3>
+                            <p className="text-sm text-gray-600 mb-2">
+                                Start earning towards a redemption goal
+                            </p>
+                            <a
+                                href="#"
+                                className="text-blue-500 text-sm font-medium hover:underline"
+                            >
+                                Set goal &gt;
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* Your Last Reward Section */}
+                    <div className="bg-white p-6 shadow-md rounded-lg flex items-center">
+                        <FaGift className="text-4xl text-yellow-500 mr-4" />
+                        <div>
+                            <h3 className="text-lg font-bold mb-2">You haven't redeemed yet</h3>
+                            <p className="text-sm text-gray-600 mb-2">
+                                See what you can redeem today.
+                            </p>
+                            <a
+                                href="#"
+                                className="text-blue-500 text-sm font-medium hover:underline"
+                            >
+                                Redeem now &gt;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <section>
+                <SuggestedRewards />
+            </section>
+
+
+
+
+
+
+
+
+
+
+
 
         </div>
     );
