@@ -5,7 +5,7 @@ export default function Bottom() {
     return (
         <div className="">
             {/* Top Section */}
-            <div className="w-full bg-white px-6 md:px-16 py-4 md:h-52">
+            <div className="w-full bg-white px-6 md:px-16 py-4 md:h-60">
                 <div className="pb-4">
                     <p className="text-xl md:text-2xl font-bold mb-2 pt-4">
                         Help with Microsoft Rewards
