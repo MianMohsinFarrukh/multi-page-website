@@ -41,6 +41,7 @@ export default function Redeempage() {
                 </div>
 
                 {/* Right Side Cards */}
+                <div>
                 <div className="w-full lg:w-3/2 grid grid-cols-1 md:grid-cols-2 gap-4 ml-4">
                     {/* Card 1 */}
                     <div className="bg-white rounded-md shadow-md p-4">
@@ -64,7 +65,7 @@ export default function Redeempage() {
                         <h3 className="text-lg font-semibold mb-2">Overwatch Coins Digital Code</h3>
                         <p className="text-gray-600 mb-4">1,800 points</p>
                         <button className="text-blue-500 font-medium">REDEEM REWARD</button>
-                        
+
                     </div>
                     {/* Card 3 */}
                     <div className="bg-white rounded-md shadow-md p-4">
@@ -77,11 +78,25 @@ export default function Redeempage() {
                         <p className="text-gray-600 mb-4">1,700 points</p>
                         <button className="text-blue-500 font-medium">REDEEM REWARD</button>
                     </div>
-
+                     {/* Card 4 */}
+                     <div className="bg-white rounded-md shadow-md p-4">
+                        <img
+                            src="/images/the.png"
+                            alt="Sea of Thieves"
+                            className="w-full rounded-md mb-4"
+                        />
+                        <h3 className="text-lg font-semibold mb-2">Shopon.pk Gift Card Rs300</h3>
+                        <p className="text-gray-600 mb-4">1,700 points</p>
+                        <button className="text-blue-500 font-medium">REDEEM REWARD</button>
+                    </div>
+                   
                 </div>
+
+                <div className='bg-black h-1 w-full '></div>
+
             </div>
 
-
+            </div>
 
 
 
