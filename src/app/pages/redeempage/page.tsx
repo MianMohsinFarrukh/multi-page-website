@@ -1,4 +1,5 @@
 import Homebar from '@/app/components/homebar/page'
+import SuggestedRewards from '@/app/components/secondcards/page'
 import React from 'react'
 import { FaSearch } from 'react-icons/fa'
 import { FiChevronDown } from 'react-icons/fi'
@@ -94,6 +95,10 @@ export default function Redeempage() {
 
                 <div className='bg-black h-1 w-full '></div>
 
+
+
+
+<div><SuggestedRewards /></div>
             </div>
 
             </div>
